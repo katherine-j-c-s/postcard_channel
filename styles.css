@@ -4,6 +4,26 @@ body {
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: bold;
 }
+h1 {
+    font-size: 42px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: black;
+}
+h2 {
+    font-size: 42px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: white;
+}
+h3 {
+    font-size: 32px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: black;
+}
+p {
+    font-size: 18px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: black;
+}
 header {
     display: flex;
     flex-direction: row;
@@ -21,7 +41,7 @@ header {
     flex-direction: row;
     margin-right: 20px;
 }
-.nav p {
+.nav li {
     margin: 0% 6%;
 }
 section {
@@ -32,3 +52,22 @@ section {
     font-weight: bold;
     font-size: 50px;
 }
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    width: 200px;
+    height: 50px;
+    text-decoration: none;
+    color: black;
+}
+.bottom:hover {
+    background: linear-gradient(to right,cyan , blue);
+    transition: 125s;
+    cursor: pointer;
+    color: white;
+}
+/* .bottom p:hover{
+    color: white;
+} */
